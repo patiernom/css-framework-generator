@@ -1,0 +1,31 @@
+{
+  "name": "css-framework-generator",
+  "version": "1.0.0",
+  "description": "A command line interface for",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patiernom/css-framework-generator.git"
+  },
+  "bin": {
+    "gcfgen": "./index.js"
+  },
+  "author": "Marco Patierno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patiernom/css-framework-generator/issues"
+  },
+  "homepage": "https://github.com/patiernom/css-framework-generator#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "clear": "0.0.1",
+    "clui": "^0.3.1",
+    "commander": "^2.9.0",
+    "figlet": "^1.2.0",
+    "inquirer": "^2.0.0",
+    "minimist": "^1.2.0"
+  }
+}
